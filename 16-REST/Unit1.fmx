@@ -1,0 +1,178 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object StringGrid1: TStringGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 640.000000000000000000
+    Size.Height = 354.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnSelChanged = StringGrid1SelChanged
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 329.000000000000000000
+  end
+  object Button1: TButton
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Padding.Left = 5.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 5.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 104.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object Label1: TLabel
+      Align = Top
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Align = Top
+      Position.X = 5.000000000000000000
+      Position.Y = 22.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+      TabOrder = 1
+    end
+    object Label3: TLabel
+      Align = Top
+      Position.X = 5.000000000000000000
+      Position.Y = 39.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label3'
+      TabOrder = 2
+    end
+    object Label4: TLabel
+      Align = Top
+      Position.X = 5.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label4'
+      TabOrder = 4
+    end
+    object Label5: TLabel
+      Align = Top
+      Position.X = 5.000000000000000000
+      Position.Y = 73.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label4'
+      TabOrder = 3
+    end
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 'https://data.grandpoitiers.fr/api/records/1.0'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 200
+    Top = 48
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        name = 'dataset'
+        Value = 'culture-transactions-de-prets-des-mediatheques-de-poitiers'
+      end
+      item
+        name = 'facet'
+        Value = 'annee'
+      end
+      item
+        name = 'facet'
+        Value = 'mois'
+      end
+      item
+        name = 'facet'
+        Value = 'type_document'
+      end
+      item
+        name = 'facet'
+        Value = 'lieu'
+      end
+      item
+        name = 'rows'
+        Value = '100'
+      end>
+    Resource = 'search'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 88
+    Top = 112
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    RootElement = 'records'
+    Left = 32
+    Top = 152
+  end
+  object RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter
+    Dataset = FDMemTable1
+    FieldDefs = <>
+    Response = RESTResponse1
+    Left = 328
+    Top = 152
+  end
+  object FDMemTable1: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired]
+    UpdateOptions.CheckRequired = False
+    Left = 456
+    Top = 104
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTable1
+    ScopeMappings = <>
+    Left = 152
+    Top = 216
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
+  end
+end

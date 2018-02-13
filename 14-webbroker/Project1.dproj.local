@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/01/27 17:25:17.000.885,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/02/06 20:36:02.441,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\FormUnit1.pas</Transaction>
+    <Transaction>2018/02/06 20:36:03.185,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/02/06 20:36:56.305,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\14-webbroker\WebModuleUnit1.dfm=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2018/02/06 20:36:56.305,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\14-webbroker\WebModuleUnit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/02/06 20:36:58.581,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\14-webbroker\FormUnit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\FormUnit1.pas</Transaction>
+    <Transaction>2018/02/06 20:36:58.581,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\14-webbroker\FormUnit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\FormUnit1.fmx</Transaction>
+    <Transaction>2018/02/06 20:37:01.315,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\14-webbroker\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
