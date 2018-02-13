@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/01 14:04:54.000.782,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/02/01 14:07:28.000.311,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Brive\05-vcl-lb-addition\Unit1.pas</Transaction>
+    <Transaction>2018/02/01 14:07:28.000.311,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Brive\05-vcl-lb-addition\Unit1.dfm</Transaction>
+    <Transaction>2018/02/01 14:07:31.000.439,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Brive\05-vcl-lb-addition\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

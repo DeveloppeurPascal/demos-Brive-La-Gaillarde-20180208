@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/01/27 17:25:17.000.885,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/02/03 19:29:39.000.023,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/02/03 19:30:22.000.474,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\09-fmx-helloworld\Unit1.pas</Transaction>
+    <Transaction>2018/02/03 19:30:22.000.474,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\09-fmx-helloworld\Unit1.fmx</Transaction>
+    <Transaction>2018/02/03 19:30:24.000.232,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\demos-brive-la-gaillarde-20180208\09-fmx-helloworld\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5"/>  <NoProfile Android="FUH7N16415013165"/>
+  </ActiveMobileDevice>
+</BorlandProject>
