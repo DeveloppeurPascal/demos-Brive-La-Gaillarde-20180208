@@ -4,6 +4,8 @@ Sources des exemples utilisés lors de la présentation de RAD Studio 10.2 Tokyo
 
 Ce dépôt de code est maintenant archivé. Ces exemples à jour et de nombreux autres sont disponibles sur [celui-ci](https://github.com/DeveloppeurPascal/Delphi-samples).
 
+Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
+
 -----
 
 Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
